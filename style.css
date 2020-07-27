@@ -1,16 +1,16 @@
-.dino{
+.dino {
     width:60px;
-    height: 90px;
+    height: 60px;
     position:absolute;
-    background-image: url(amir-rex1.png);
+    background-image: url(t-rex.png);
     bottom: 5px;
 }
 
 .obstacle {
     position: absolute;
-    width: 70px;
-    height: 140px;
-    background-image: url(koby-rex.png);
+    width: 60px;
+    height: 60px;
+    background-image: url(cacti.png);
     bottom: 5px;
 }
 
