@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                         clearInterval(downTimerId)
                         isJumping = false
                     }
-                    position -= 5
+                    position -= 2
                     dino.style.bottom = position + 'px'
                     count --
                     position = position * gravity
