@@ -4,6 +4,7 @@
     position:absolute;
     background-image: url(t-rex.png);
     bottom: 5px;
+    left: 20px;
 }
 
 .obstacle {

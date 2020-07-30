@@ -26,13 +26,13 @@ document.addEventListener('DOMContentLoaded',()=>{
         let count = 0
         let timerId = setInterval(function (){
             //move down 
-            if(count === 15){
+            if(count === 20){
                 clearInterval(timerId)
                 console.log('down')
                 position -= 30
                 dino.style.bottom = position + 'px'
                 let downTimerId = setInterval(function(){
-                    if(count === 0){
+                    if(count === 7){
                         clearInterval(downTimerId)
                         isJumping = false
                     }
